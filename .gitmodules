@@ -1,0 +1,3 @@
+[submodule "Mozc-for-iOS"]
+	path = Mozc-for-iOS
+	url = git@github.com:kishikawakatsumi/Mozc-for-iOS.git

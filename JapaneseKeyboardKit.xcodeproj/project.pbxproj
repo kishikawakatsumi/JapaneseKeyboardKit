@@ -1,0 +1,755 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1433DEB019D9C56E0071A2E4 /* libbase_core.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1433DE7B19D9C56E0071A2E4 /* libbase_core.a */; };
+		1433DEB119D9C56E0071A2E4 /* libbase.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1433DE7C19D9C56E0071A2E4 /* libbase.a */; };
+		1433DEB219D9C56E0071A2E4 /* libbit_vector_based_array.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1433DE7D19D9C56E0071A2E4 /* libbit_vector_based_array.a */; };
+		1433DEB319D9C56E0071A2E4 /* libcached_connector.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1433DE7E19D9C56E0071A2E4 /* libcached_connector.a */; };
+		1433DEB419D9C56E0071A2E4 /* libcalculator.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1433DE7F19D9C56E0071A2E4 /* libcalculator.a */; };
+		1433DEB519D9C56E0071A2E4 /* libcharacter_form_manager.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1433DE8019D9C56E0071A2E4 /* libcharacter_form_manager.a */; };
+		1433DEB619D9C56E0071A2E4 /* libcodec.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1433DE8119D9C56E0071A2E4 /* libcodec.a */; };
+		1433DEB719D9C56E0071A2E4 /* libcomposer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1433DE8219D9C56E0071A2E4 /* libcomposer.a */; };
+		1433DEB819D9C56E0071A2E4 /* libconfig_file_stream.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1433DE8319D9C56E0071A2E4 /* libconfig_file_stream.a */; };
+		1433DEB919D9C56E0071A2E4 /* libconfig_handler.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1433DE8419D9C56E0071A2E4 /* libconfig_handler.a */; };
+		1433DEBA19D9C56E0071A2E4 /* libconfig_protocol.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1433DE8519D9C56E0071A2E4 /* libconfig_protocol.a */; };
+		1433DEBB19D9C56E0071A2E4 /* libconnection_file_reader.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1433DE8619D9C56E0071A2E4 /* libconnection_file_reader.a */; };
+		1433DEBC19D9C56E0071A2E4 /* libconnector_base.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1433DE8719D9C56E0071A2E4 /* libconnector_base.a */; };
+		1433DEBD19D9C56E0071A2E4 /* libconversion_request.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1433DE8819D9C56E0071A2E4 /* libconversion_request.a */; };
+		1433DEBE19D9C56E0071A2E4 /* libconverter.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1433DE8919D9C56E0071A2E4 /* libconverter.a */; };
+		1433DEBF19D9C56E0071A2E4 /* libdictionary_file_builder.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1433DE8A19D9C56E0071A2E4 /* libdictionary_file_builder.a */; };
+		1433DEC019D9C56E0071A2E4 /* libdictionary_file.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1433DE8B19D9C56E0071A2E4 /* libdictionary_file.a */; };
+		1433DEC119D9C56E0071A2E4 /* libdictionary_impl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1433DE8C19D9C56E0071A2E4 /* libdictionary_impl.a */; };
+		1433DEC219D9C56E0071A2E4 /* libdictionary_protocol.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1433DE8D19D9C56E0071A2E4 /* libdictionary_protocol.a */; };
+		1433DEC319D9C56E0071A2E4 /* libencryptor.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1433DE8E19D9C56E0071A2E4 /* libencryptor.a */; };
+		1433DEC419D9C56E0071A2E4 /* libengine.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1433DE8F19D9C56E0071A2E4 /* libengine.a */; };
+		1433DEC519D9C56E0071A2E4 /* libimmutable_converter_interface.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1433DE9019D9C56E0071A2E4 /* libimmutable_converter_interface.a */; };
+		1433DEC619D9C56E0071A2E4 /* libimmutable_converter.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1433DE9119D9C56E0071A2E4 /* libimmutable_converter.a */; };
+		1433DEC719D9C56E0071A2E4 /* liblattice.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1433DE9219D9C56E0071A2E4 /* liblattice.a */; };
+		1433DEC819D9C56E0071A2E4 /* liblouds_trie.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1433DE9319D9C56E0071A2E4 /* liblouds_trie.a */; };
+		1433DEC919D9C56E0071A2E4 /* libmultifile.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1433DE9419D9C56E0071A2E4 /* libmultifile.a */; };
+		1433DECA19D9C56E0071A2E4 /* libobfuscator_support.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1433DE9519D9C56E0071A2E4 /* libobfuscator_support.a */; };
+		1433DECB19D9C56E0071A2E4 /* liboss_data_manager.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1433DE9619D9C56E0071A2E4 /* liboss_data_manager.a */; };
+		1433DECC19D9C56E0071A2E4 /* liboss_engine_factory.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1433DE9719D9C56E0071A2E4 /* liboss_engine_factory.a */; };
+		1433DECD19D9C56E0071A2E4 /* liboss_user_pos_manager.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1433DE9819D9C56E0071A2E4 /* liboss_user_pos_manager.a */; };
+		1433DECE19D9C56E0071A2E4 /* libpos_id_printer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1433DE9919D9C56E0071A2E4 /* libpos_id_printer.a */; };
+		1433DECF19D9C56E0071A2E4 /* libprediction_protocol.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1433DE9A19D9C56E0071A2E4 /* libprediction_protocol.a */; };
+		1433DED019D9C56E0071A2E4 /* libprediction.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1433DE9B19D9C56E0071A2E4 /* libprediction.a */; };
+		1433DED119D9C56E0071A2E4 /* libprotobuf.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1433DE9C19D9C56E0071A2E4 /* libprotobuf.a */; };
+		1433DED219D9C56E0071A2E4 /* librewriter.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1433DE9D19D9C56E0071A2E4 /* librewriter.a */; };
+		1433DED319D9C56E0071A2E4 /* libsegmenter_base.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1433DE9E19D9C56E0071A2E4 /* libsegmenter_base.a */; };
+		1433DED419D9C56E0071A2E4 /* libsegments.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1433DE9F19D9C56E0071A2E4 /* libsegments.a */; };
+		1433DED519D9C56E0071A2E4 /* libsession_protocol.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1433DEA019D9C56E0071A2E4 /* libsession_protocol.a */; };
+		1433DED619D9C56E0071A2E4 /* libsimple_succinct_bit_vector_index.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1433DEA119D9C56E0071A2E4 /* libsimple_succinct_bit_vector_index.a */; };
+		1433DED719D9C56E0071A2E4 /* libsparse_connector.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1433DEA219D9C56E0071A2E4 /* libsparse_connector.a */; };
+		1433DED819D9C56E0071A2E4 /* libstats_config_util.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1433DEA319D9C56E0071A2E4 /* libstats_config_util.a */; };
+		1433DED919D9C56E0071A2E4 /* libstorage.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1433DEA419D9C56E0071A2E4 /* libstorage.a */; };
+		1433DEDA19D9C56E0071A2E4 /* libsuffix_dictionary.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1433DEA519D9C56E0071A2E4 /* libsuffix_dictionary.a */; };
+		1433DEDB19D9C56E0071A2E4 /* libsuggestion_filter.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1433DEA619D9C56E0071A2E4 /* libsuggestion_filter.a */; };
+		1433DEDC19D9C56E0071A2E4 /* libsuppression_dictionary.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1433DEA719D9C56E0071A2E4 /* libsuppression_dictionary.a */; };
+		1433DEDD19D9C56E0071A2E4 /* libsystem_dictionary_codec.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1433DEA819D9C56E0071A2E4 /* libsystem_dictionary_codec.a */; };
+		1433DEDE19D9C56E0071A2E4 /* libsystem_dictionary.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1433DEA919D9C56E0071A2E4 /* libsystem_dictionary.a */; };
+		1433DEDF19D9C56E0071A2E4 /* libtext_dictionary_loader.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1433DEAA19D9C56E0071A2E4 /* libtext_dictionary_loader.a */; };
+		1433DEE019D9C56E0071A2E4 /* libusage_stats_protocol.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1433DEAB19D9C56E0071A2E4 /* libusage_stats_protocol.a */; };
+		1433DEE119D9C56E0071A2E4 /* libusage_stats.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1433DEAC19D9C56E0071A2E4 /* libusage_stats.a */; };
+		1433DEE219D9C56E0071A2E4 /* libuser_dictionary.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1433DEAD19D9C56E0071A2E4 /* libuser_dictionary.a */; };
+		1433DEE319D9C56E0071A2E4 /* libuser_pos.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1433DEAE19D9C56E0071A2E4 /* libuser_pos.a */; };
+		1433DEE419D9C56E0071A2E4 /* libvalue_dictionary.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1433DEAF19D9C56E0071A2E4 /* libvalue_dictionary.a */; };
+		14A11AB919D84A6F00FA1350 /* KeyboardCandidateBarCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 14A11AB719D84A6F00FA1350 /* KeyboardCandidateBarCell.m */; };
+		14A11ABA19D84A6F00FA1350 /* KeyboardCandidateBarCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 14A11AB819D84A6F00FA1350 /* KeyboardCandidateBarCell.xib */; };
+		14E656DF19D8239100A74B85 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 14E656DE19D8239100A74B85 /* main.m */; };
+		14E656E219D8239100A74B85 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 14E656E119D8239100A74B85 /* AppDelegate.m */; };
+		14E656E519D8239100A74B85 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 14E656E419D8239100A74B85 /* ViewController.m */; };
+		14E656E819D8239100A74B85 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14E656E619D8239100A74B85 /* Main.storyboard */; };
+		14E656ED19D8239100A74B85 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 14E656EB19D8239100A74B85 /* LaunchScreen.xib */; };
+		14E6570C19D823FD00A74B85 /* KeyboardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 14E6570B19D823FD00A74B85 /* KeyboardViewController.m */; };
+		14E6570F19D823FD00A74B85 /* JPKB.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 14E6570619D823FD00A74B85 /* JPKB.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		14E6571819D8244C00A74B85 /* KeyboardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 14E6571719D8244C00A74B85 /* KeyboardView.m */; };
+		14E6571B19D825A700A74B85 /* KanaInputEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 14E6571A19D825A700A74B85 /* KanaInputEngine.m */; };
+		14E6571E19D8261A00A74B85 /* KeyboardCandidateBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 14E6571D19D8261A00A74B85 /* KeyboardCandidateBar.m */; };
+		14E6572119D8278E00A74B85 /* KeyboardLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 14E6572019D8278E00A74B85 /* KeyboardLayout.m */; };
+		14E6572419D828E400A74B85 /* InputManager.mm in Sources */ = {isa = PBXBuildFile; fileRef = 14E6572319D828E400A74B85 /* InputManager.mm */; };
+		14E6572719D82A0E00A74B85 /* KeyboardButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 14E6572619D82A0E00A74B85 /* KeyboardButton.m */; };
+		14E6572919D82DBF00A74B85 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14E656E919D8239100A74B85 /* Images.xcassets */; };
+		14E6572B19D82DD600A74B85 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14E6572A19D82DD600A74B85 /* Images.xcassets */; };
+		14E6572E19D830C600A74B85 /* InputCandidate.m in Sources */ = {isa = PBXBuildFile; fileRef = 14E6572D19D830C600A74B85 /* InputCandidate.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		14E6570D19D823FD00A74B85 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 14E656D119D8239100A74B85 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 14E6570519D823FD00A74B85;
+			remoteInfo = JPKB;
+		};
+		14E6571019D823FD00A74B85 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 14E656D119D8239100A74B85 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 14E6570519D823FD00A74B85;
+			remoteInfo = JPKB;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		14E6571519D823FD00A74B85 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				14E6570F19D823FD00A74B85 /* JPKB.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1433DE7B19D9C56E0071A2E4 /* libbase_core.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libbase_core.a; path = "Mozc-for-iOS/src/out_ios/Release-iphoneos/libbase_core.a"; sourceTree = SOURCE_ROOT; };
+		1433DE7C19D9C56E0071A2E4 /* libbase.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libbase.a; path = "Mozc-for-iOS/src/out_ios/Release-iphoneos/libbase.a"; sourceTree = SOURCE_ROOT; };
+		1433DE7D19D9C56E0071A2E4 /* libbit_vector_based_array.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libbit_vector_based_array.a; path = "Mozc-for-iOS/src/out_ios/Release-iphoneos/libbit_vector_based_array.a"; sourceTree = SOURCE_ROOT; };
+		1433DE7E19D9C56E0071A2E4 /* libcached_connector.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libcached_connector.a; path = "Mozc-for-iOS/src/out_ios/Release-iphoneos/libcached_connector.a"; sourceTree = SOURCE_ROOT; };
+		1433DE7F19D9C56E0071A2E4 /* libcalculator.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libcalculator.a; path = "Mozc-for-iOS/src/out_ios/Release-iphoneos/libcalculator.a"; sourceTree = SOURCE_ROOT; };
+		1433DE8019D9C56E0071A2E4 /* libcharacter_form_manager.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libcharacter_form_manager.a; path = "Mozc-for-iOS/src/out_ios/Release-iphoneos/libcharacter_form_manager.a"; sourceTree = SOURCE_ROOT; };
+		1433DE8119D9C56E0071A2E4 /* libcodec.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libcodec.a; path = "Mozc-for-iOS/src/out_ios/Release-iphoneos/libcodec.a"; sourceTree = SOURCE_ROOT; };
+		1433DE8219D9C56E0071A2E4 /* libcomposer.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libcomposer.a; path = "Mozc-for-iOS/src/out_ios/Release-iphoneos/libcomposer.a"; sourceTree = SOURCE_ROOT; };
+		1433DE8319D9C56E0071A2E4 /* libconfig_file_stream.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libconfig_file_stream.a; path = "Mozc-for-iOS/src/out_ios/Release-iphoneos/libconfig_file_stream.a"; sourceTree = SOURCE_ROOT; };
+		1433DE8419D9C56E0071A2E4 /* libconfig_handler.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libconfig_handler.a; path = "Mozc-for-iOS/src/out_ios/Release-iphoneos/libconfig_handler.a"; sourceTree = SOURCE_ROOT; };
+		1433DE8519D9C56E0071A2E4 /* libconfig_protocol.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libconfig_protocol.a; path = "Mozc-for-iOS/src/out_ios/Release-iphoneos/libconfig_protocol.a"; sourceTree = SOURCE_ROOT; };
+		1433DE8619D9C56E0071A2E4 /* libconnection_file_reader.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libconnection_file_reader.a; path = "Mozc-for-iOS/src/out_ios/Release-iphoneos/libconnection_file_reader.a"; sourceTree = SOURCE_ROOT; };
+		1433DE8719D9C56E0071A2E4 /* libconnector_base.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libconnector_base.a; path = "Mozc-for-iOS/src/out_ios/Release-iphoneos/libconnector_base.a"; sourceTree = SOURCE_ROOT; };
+		1433DE8819D9C56E0071A2E4 /* libconversion_request.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libconversion_request.a; path = "Mozc-for-iOS/src/out_ios/Release-iphoneos/libconversion_request.a"; sourceTree = SOURCE_ROOT; };
+		1433DE8919D9C56E0071A2E4 /* libconverter.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libconverter.a; path = "Mozc-for-iOS/src/out_ios/Release-iphoneos/libconverter.a"; sourceTree = SOURCE_ROOT; };
+		1433DE8A19D9C56E0071A2E4 /* libdictionary_file_builder.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libdictionary_file_builder.a; path = "Mozc-for-iOS/src/out_ios/Release-iphoneos/libdictionary_file_builder.a"; sourceTree = SOURCE_ROOT; };
+		1433DE8B19D9C56E0071A2E4 /* libdictionary_file.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libdictionary_file.a; path = "Mozc-for-iOS/src/out_ios/Release-iphoneos/libdictionary_file.a"; sourceTree = SOURCE_ROOT; };
+		1433DE8C19D9C56E0071A2E4 /* libdictionary_impl.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libdictionary_impl.a; path = "Mozc-for-iOS/src/out_ios/Release-iphoneos/libdictionary_impl.a"; sourceTree = SOURCE_ROOT; };
+		1433DE8D19D9C56E0071A2E4 /* libdictionary_protocol.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libdictionary_protocol.a; path = "Mozc-for-iOS/src/out_ios/Release-iphoneos/libdictionary_protocol.a"; sourceTree = SOURCE_ROOT; };
+		1433DE8E19D9C56E0071A2E4 /* libencryptor.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libencryptor.a; path = "Mozc-for-iOS/src/out_ios/Release-iphoneos/libencryptor.a"; sourceTree = SOURCE_ROOT; };
+		1433DE8F19D9C56E0071A2E4 /* libengine.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libengine.a; path = "Mozc-for-iOS/src/out_ios/Release-iphoneos/libengine.a"; sourceTree = SOURCE_ROOT; };
+		1433DE9019D9C56E0071A2E4 /* libimmutable_converter_interface.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libimmutable_converter_interface.a; path = "Mozc-for-iOS/src/out_ios/Release-iphoneos/libimmutable_converter_interface.a"; sourceTree = SOURCE_ROOT; };
+		1433DE9119D9C56E0071A2E4 /* libimmutable_converter.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libimmutable_converter.a; path = "Mozc-for-iOS/src/out_ios/Release-iphoneos/libimmutable_converter.a"; sourceTree = SOURCE_ROOT; };
+		1433DE9219D9C56E0071A2E4 /* liblattice.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = liblattice.a; path = "Mozc-for-iOS/src/out_ios/Release-iphoneos/liblattice.a"; sourceTree = SOURCE_ROOT; };
+		1433DE9319D9C56E0071A2E4 /* liblouds_trie.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = liblouds_trie.a; path = "Mozc-for-iOS/src/out_ios/Release-iphoneos/liblouds_trie.a"; sourceTree = SOURCE_ROOT; };
+		1433DE9419D9C56E0071A2E4 /* libmultifile.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libmultifile.a; path = "Mozc-for-iOS/src/out_ios/Release-iphoneos/libmultifile.a"; sourceTree = SOURCE_ROOT; };
+		1433DE9519D9C56E0071A2E4 /* libobfuscator_support.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libobfuscator_support.a; path = "Mozc-for-iOS/src/out_ios/Release-iphoneos/libobfuscator_support.a"; sourceTree = SOURCE_ROOT; };
+		1433DE9619D9C56E0071A2E4 /* liboss_data_manager.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = liboss_data_manager.a; path = "Mozc-for-iOS/src/out_ios/Release-iphoneos/liboss_data_manager.a"; sourceTree = SOURCE_ROOT; };
+		1433DE9719D9C56E0071A2E4 /* liboss_engine_factory.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = liboss_engine_factory.a; path = "Mozc-for-iOS/src/out_ios/Release-iphoneos/liboss_engine_factory.a"; sourceTree = SOURCE_ROOT; };
+		1433DE9819D9C56E0071A2E4 /* liboss_user_pos_manager.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = liboss_user_pos_manager.a; path = "Mozc-for-iOS/src/out_ios/Release-iphoneos/liboss_user_pos_manager.a"; sourceTree = SOURCE_ROOT; };
+		1433DE9919D9C56E0071A2E4 /* libpos_id_printer.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libpos_id_printer.a; path = "Mozc-for-iOS/src/out_ios/Release-iphoneos/libpos_id_printer.a"; sourceTree = SOURCE_ROOT; };
+		1433DE9A19D9C56E0071A2E4 /* libprediction_protocol.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libprediction_protocol.a; path = "Mozc-for-iOS/src/out_ios/Release-iphoneos/libprediction_protocol.a"; sourceTree = SOURCE_ROOT; };
+		1433DE9B19D9C56E0071A2E4 /* libprediction.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libprediction.a; path = "Mozc-for-iOS/src/out_ios/Release-iphoneos/libprediction.a"; sourceTree = SOURCE_ROOT; };
+		1433DE9C19D9C56E0071A2E4 /* libprotobuf.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libprotobuf.a; path = "Mozc-for-iOS/src/out_ios/Release-iphoneos/libprotobuf.a"; sourceTree = SOURCE_ROOT; };
+		1433DE9D19D9C56E0071A2E4 /* librewriter.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = librewriter.a; path = "Mozc-for-iOS/src/out_ios/Release-iphoneos/librewriter.a"; sourceTree = SOURCE_ROOT; };
+		1433DE9E19D9C56E0071A2E4 /* libsegmenter_base.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libsegmenter_base.a; path = "Mozc-for-iOS/src/out_ios/Release-iphoneos/libsegmenter_base.a"; sourceTree = SOURCE_ROOT; };
+		1433DE9F19D9C56E0071A2E4 /* libsegments.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libsegments.a; path = "Mozc-for-iOS/src/out_ios/Release-iphoneos/libsegments.a"; sourceTree = SOURCE_ROOT; };
+		1433DEA019D9C56E0071A2E4 /* libsession_protocol.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libsession_protocol.a; path = "Mozc-for-iOS/src/out_ios/Release-iphoneos/libsession_protocol.a"; sourceTree = SOURCE_ROOT; };
+		1433DEA119D9C56E0071A2E4 /* libsimple_succinct_bit_vector_index.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libsimple_succinct_bit_vector_index.a; path = "Mozc-for-iOS/src/out_ios/Release-iphoneos/libsimple_succinct_bit_vector_index.a"; sourceTree = SOURCE_ROOT; };
+		1433DEA219D9C56E0071A2E4 /* libsparse_connector.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libsparse_connector.a; path = "Mozc-for-iOS/src/out_ios/Release-iphoneos/libsparse_connector.a"; sourceTree = SOURCE_ROOT; };
+		1433DEA319D9C56E0071A2E4 /* libstats_config_util.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libstats_config_util.a; path = "Mozc-for-iOS/src/out_ios/Release-iphoneos/libstats_config_util.a"; sourceTree = SOURCE_ROOT; };
+		1433DEA419D9C56E0071A2E4 /* libstorage.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libstorage.a; path = "Mozc-for-iOS/src/out_ios/Release-iphoneos/libstorage.a"; sourceTree = SOURCE_ROOT; };
+		1433DEA519D9C56E0071A2E4 /* libsuffix_dictionary.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libsuffix_dictionary.a; path = "Mozc-for-iOS/src/out_ios/Release-iphoneos/libsuffix_dictionary.a"; sourceTree = SOURCE_ROOT; };
+		1433DEA619D9C56E0071A2E4 /* libsuggestion_filter.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libsuggestion_filter.a; path = "Mozc-for-iOS/src/out_ios/Release-iphoneos/libsuggestion_filter.a"; sourceTree = SOURCE_ROOT; };
+		1433DEA719D9C56E0071A2E4 /* libsuppression_dictionary.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libsuppression_dictionary.a; path = "Mozc-for-iOS/src/out_ios/Release-iphoneos/libsuppression_dictionary.a"; sourceTree = SOURCE_ROOT; };
+		1433DEA819D9C56E0071A2E4 /* libsystem_dictionary_codec.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libsystem_dictionary_codec.a; path = "Mozc-for-iOS/src/out_ios/Release-iphoneos/libsystem_dictionary_codec.a"; sourceTree = SOURCE_ROOT; };
+		1433DEA919D9C56E0071A2E4 /* libsystem_dictionary.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libsystem_dictionary.a; path = "Mozc-for-iOS/src/out_ios/Release-iphoneos/libsystem_dictionary.a"; sourceTree = SOURCE_ROOT; };
+		1433DEAA19D9C56E0071A2E4 /* libtext_dictionary_loader.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libtext_dictionary_loader.a; path = "Mozc-for-iOS/src/out_ios/Release-iphoneos/libtext_dictionary_loader.a"; sourceTree = SOURCE_ROOT; };
+		1433DEAB19D9C56E0071A2E4 /* libusage_stats_protocol.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libusage_stats_protocol.a; path = "Mozc-for-iOS/src/out_ios/Release-iphoneos/libusage_stats_protocol.a"; sourceTree = SOURCE_ROOT; };
+		1433DEAC19D9C56E0071A2E4 /* libusage_stats.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libusage_stats.a; path = "Mozc-for-iOS/src/out_ios/Release-iphoneos/libusage_stats.a"; sourceTree = SOURCE_ROOT; };
+		1433DEAD19D9C56E0071A2E4 /* libuser_dictionary.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libuser_dictionary.a; path = "Mozc-for-iOS/src/out_ios/Release-iphoneos/libuser_dictionary.a"; sourceTree = SOURCE_ROOT; };
+		1433DEAE19D9C56E0071A2E4 /* libuser_pos.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libuser_pos.a; path = "Mozc-for-iOS/src/out_ios/Release-iphoneos/libuser_pos.a"; sourceTree = SOURCE_ROOT; };
+		1433DEAF19D9C56E0071A2E4 /* libvalue_dictionary.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libvalue_dictionary.a; path = "Mozc-for-iOS/src/out_ios/Release-iphoneos/libvalue_dictionary.a"; sourceTree = SOURCE_ROOT; };
+		14A11AB619D84A6F00FA1350 /* KeyboardCandidateBarCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeyboardCandidateBarCell.h; sourceTree = "<group>"; };
+		14A11AB719D84A6F00FA1350 /* KeyboardCandidateBarCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeyboardCandidateBarCell.m; sourceTree = "<group>"; };
+		14A11AB819D84A6F00FA1350 /* KeyboardCandidateBarCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KeyboardCandidateBarCell.xib; sourceTree = "<group>"; };
+		14E656D919D8239100A74B85 /* JapaneseKeyboardKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JapaneseKeyboardKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		14E656DD19D8239100A74B85 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		14E656DE19D8239100A74B85 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		14E656E019D8239100A74B85 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		14E656E119D8239100A74B85 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		14E656E319D8239100A74B85 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		14E656E419D8239100A74B85 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		14E656E719D8239100A74B85 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		14E656E919D8239100A74B85 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		14E656EC19D8239100A74B85 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		14E6570619D823FD00A74B85 /* JPKB.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = JPKB.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		14E6570919D823FD00A74B85 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		14E6570A19D823FD00A74B85 /* KeyboardViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KeyboardViewController.h; sourceTree = "<group>"; };
+		14E6570B19D823FD00A74B85 /* KeyboardViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KeyboardViewController.m; sourceTree = "<group>"; };
+		14E6571619D8244C00A74B85 /* KeyboardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeyboardView.h; sourceTree = "<group>"; };
+		14E6571719D8244C00A74B85 /* KeyboardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeyboardView.m; sourceTree = "<group>"; };
+		14E6571919D825A700A74B85 /* KanaInputEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KanaInputEngine.h; sourceTree = "<group>"; };
+		14E6571A19D825A700A74B85 /* KanaInputEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KanaInputEngine.m; sourceTree = "<group>"; };
+		14E6571C19D8261A00A74B85 /* KeyboardCandidateBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeyboardCandidateBar.h; sourceTree = "<group>"; };
+		14E6571D19D8261A00A74B85 /* KeyboardCandidateBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeyboardCandidateBar.m; sourceTree = "<group>"; };
+		14E6571F19D8278E00A74B85 /* KeyboardLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeyboardLayout.h; sourceTree = "<group>"; };
+		14E6572019D8278E00A74B85 /* KeyboardLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeyboardLayout.m; sourceTree = "<group>"; };
+		14E6572219D828E400A74B85 /* InputManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InputManager.h; sourceTree = "<group>"; };
+		14E6572319D828E400A74B85 /* InputManager.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = InputManager.mm; sourceTree = "<group>"; };
+		14E6572519D82A0E00A74B85 /* KeyboardButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeyboardButton.h; sourceTree = "<group>"; };
+		14E6572619D82A0E00A74B85 /* KeyboardButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeyboardButton.m; sourceTree = "<group>"; };
+		14E6572A19D82DD600A74B85 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		14E6572C19D830C600A74B85 /* InputCandidate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InputCandidate.h; sourceTree = "<group>"; };
+		14E6572D19D830C600A74B85 /* InputCandidate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InputCandidate.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		14E656D619D8239100A74B85 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14E6570319D823FD00A74B85 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1433DEE419D9C56E0071A2E4 /* libvalue_dictionary.a in Frameworks */,
+				1433DECF19D9C56E0071A2E4 /* libprediction_protocol.a in Frameworks */,
+				1433DECC19D9C56E0071A2E4 /* liboss_engine_factory.a in Frameworks */,
+				1433DED419D9C56E0071A2E4 /* libsegments.a in Frameworks */,
+				1433DED719D9C56E0071A2E4 /* libsparse_connector.a in Frameworks */,
+				1433DEB619D9C56E0071A2E4 /* libcodec.a in Frameworks */,
+				1433DEC119D9C56E0071A2E4 /* libdictionary_impl.a in Frameworks */,
+				1433DED619D9C56E0071A2E4 /* libsimple_succinct_bit_vector_index.a in Frameworks */,
+				1433DEC819D9C56E0071A2E4 /* liblouds_trie.a in Frameworks */,
+				1433DEDC19D9C56E0071A2E4 /* libsuppression_dictionary.a in Frameworks */,
+				1433DECB19D9C56E0071A2E4 /* liboss_data_manager.a in Frameworks */,
+				1433DEDB19D9C56E0071A2E4 /* libsuggestion_filter.a in Frameworks */,
+				1433DEB419D9C56E0071A2E4 /* libcalculator.a in Frameworks */,
+				1433DEBB19D9C56E0071A2E4 /* libconnection_file_reader.a in Frameworks */,
+				1433DEBE19D9C56E0071A2E4 /* libconverter.a in Frameworks */,
+				1433DED319D9C56E0071A2E4 /* libsegmenter_base.a in Frameworks */,
+				1433DEB519D9C56E0071A2E4 /* libcharacter_form_manager.a in Frameworks */,
+				1433DEC319D9C56E0071A2E4 /* libencryptor.a in Frameworks */,
+				1433DEDF19D9C56E0071A2E4 /* libtext_dictionary_loader.a in Frameworks */,
+				1433DED019D9C56E0071A2E4 /* libprediction.a in Frameworks */,
+				1433DEE119D9C56E0071A2E4 /* libusage_stats.a in Frameworks */,
+				1433DEDA19D9C56E0071A2E4 /* libsuffix_dictionary.a in Frameworks */,
+				1433DEB819D9C56E0071A2E4 /* libconfig_file_stream.a in Frameworks */,
+				1433DED919D9C56E0071A2E4 /* libstorage.a in Frameworks */,
+				1433DEB719D9C56E0071A2E4 /* libcomposer.a in Frameworks */,
+				1433DECE19D9C56E0071A2E4 /* libpos_id_printer.a in Frameworks */,
+				1433DEC219D9C56E0071A2E4 /* libdictionary_protocol.a in Frameworks */,
+				1433DEDE19D9C56E0071A2E4 /* libsystem_dictionary.a in Frameworks */,
+				1433DEB219D9C56E0071A2E4 /* libbit_vector_based_array.a in Frameworks */,
+				1433DEDD19D9C56E0071A2E4 /* libsystem_dictionary_codec.a in Frameworks */,
+				1433DEBA19D9C56E0071A2E4 /* libconfig_protocol.a in Frameworks */,
+				1433DEC019D9C56E0071A2E4 /* libdictionary_file.a in Frameworks */,
+				1433DEE219D9C56E0071A2E4 /* libuser_dictionary.a in Frameworks */,
+				1433DEE019D9C56E0071A2E4 /* libusage_stats_protocol.a in Frameworks */,
+				1433DEC519D9C56E0071A2E4 /* libimmutable_converter_interface.a in Frameworks */,
+				1433DEB919D9C56E0071A2E4 /* libconfig_handler.a in Frameworks */,
+				1433DEC419D9C56E0071A2E4 /* libengine.a in Frameworks */,
+				1433DEC719D9C56E0071A2E4 /* liblattice.a in Frameworks */,
+				1433DEBD19D9C56E0071A2E4 /* libconversion_request.a in Frameworks */,
+				1433DED219D9C56E0071A2E4 /* librewriter.a in Frameworks */,
+				1433DEC919D9C56E0071A2E4 /* libmultifile.a in Frameworks */,
+				1433DEB319D9C56E0071A2E4 /* libcached_connector.a in Frameworks */,
+				1433DED119D9C56E0071A2E4 /* libprotobuf.a in Frameworks */,
+				1433DEB119D9C56E0071A2E4 /* libbase.a in Frameworks */,
+				1433DEC619D9C56E0071A2E4 /* libimmutable_converter.a in Frameworks */,
+				1433DED519D9C56E0071A2E4 /* libsession_protocol.a in Frameworks */,
+				1433DECD19D9C56E0071A2E4 /* liboss_user_pos_manager.a in Frameworks */,
+				1433DEBF19D9C56E0071A2E4 /* libdictionary_file_builder.a in Frameworks */,
+				1433DEE319D9C56E0071A2E4 /* libuser_pos.a in Frameworks */,
+				1433DEB019D9C56E0071A2E4 /* libbase_core.a in Frameworks */,
+				1433DED819D9C56E0071A2E4 /* libstats_config_util.a in Frameworks */,
+				1433DECA19D9C56E0071A2E4 /* libobfuscator_support.a in Frameworks */,
+				1433DEBC19D9C56E0071A2E4 /* libconnector_base.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		14A11ABB19D865E300FA1350 /* Vendor */ = {
+			isa = PBXGroup;
+			children = (
+				14A11ABC19D865EA00FA1350 /* Mozc */,
+			);
+			name = Vendor;
+			sourceTree = "<group>";
+		};
+		14A11ABC19D865EA00FA1350 /* Mozc */ = {
+			isa = PBXGroup;
+			children = (
+				1433DE7B19D9C56E0071A2E4 /* libbase_core.a */,
+				1433DE7C19D9C56E0071A2E4 /* libbase.a */,
+				1433DE7D19D9C56E0071A2E4 /* libbit_vector_based_array.a */,
+				1433DE7E19D9C56E0071A2E4 /* libcached_connector.a */,
+				1433DE7F19D9C56E0071A2E4 /* libcalculator.a */,
+				1433DE8019D9C56E0071A2E4 /* libcharacter_form_manager.a */,
+				1433DE8119D9C56E0071A2E4 /* libcodec.a */,
+				1433DE8219D9C56E0071A2E4 /* libcomposer.a */,
+				1433DE8319D9C56E0071A2E4 /* libconfig_file_stream.a */,
+				1433DE8419D9C56E0071A2E4 /* libconfig_handler.a */,
+				1433DE8519D9C56E0071A2E4 /* libconfig_protocol.a */,
+				1433DE8619D9C56E0071A2E4 /* libconnection_file_reader.a */,
+				1433DE8719D9C56E0071A2E4 /* libconnector_base.a */,
+				1433DE8819D9C56E0071A2E4 /* libconversion_request.a */,
+				1433DE8919D9C56E0071A2E4 /* libconverter.a */,
+				1433DE8A19D9C56E0071A2E4 /* libdictionary_file_builder.a */,
+				1433DE8B19D9C56E0071A2E4 /* libdictionary_file.a */,
+				1433DE8C19D9C56E0071A2E4 /* libdictionary_impl.a */,
+				1433DE8D19D9C56E0071A2E4 /* libdictionary_protocol.a */,
+				1433DE8E19D9C56E0071A2E4 /* libencryptor.a */,
+				1433DE8F19D9C56E0071A2E4 /* libengine.a */,
+				1433DE9019D9C56E0071A2E4 /* libimmutable_converter_interface.a */,
+				1433DE9119D9C56E0071A2E4 /* libimmutable_converter.a */,
+				1433DE9219D9C56E0071A2E4 /* liblattice.a */,
+				1433DE9319D9C56E0071A2E4 /* liblouds_trie.a */,
+				1433DE9419D9C56E0071A2E4 /* libmultifile.a */,
+				1433DE9519D9C56E0071A2E4 /* libobfuscator_support.a */,
+				1433DE9619D9C56E0071A2E4 /* liboss_data_manager.a */,
+				1433DE9719D9C56E0071A2E4 /* liboss_engine_factory.a */,
+				1433DE9819D9C56E0071A2E4 /* liboss_user_pos_manager.a */,
+				1433DE9919D9C56E0071A2E4 /* libpos_id_printer.a */,
+				1433DE9A19D9C56E0071A2E4 /* libprediction_protocol.a */,
+				1433DE9B19D9C56E0071A2E4 /* libprediction.a */,
+				1433DE9C19D9C56E0071A2E4 /* libprotobuf.a */,
+				1433DE9D19D9C56E0071A2E4 /* librewriter.a */,
+				1433DE9E19D9C56E0071A2E4 /* libsegmenter_base.a */,
+				1433DE9F19D9C56E0071A2E4 /* libsegments.a */,
+				1433DEA019D9C56E0071A2E4 /* libsession_protocol.a */,
+				1433DEA119D9C56E0071A2E4 /* libsimple_succinct_bit_vector_index.a */,
+				1433DEA219D9C56E0071A2E4 /* libsparse_connector.a */,
+				1433DEA319D9C56E0071A2E4 /* libstats_config_util.a */,
+				1433DEA419D9C56E0071A2E4 /* libstorage.a */,
+				1433DEA519D9C56E0071A2E4 /* libsuffix_dictionary.a */,
+				1433DEA619D9C56E0071A2E4 /* libsuggestion_filter.a */,
+				1433DEA719D9C56E0071A2E4 /* libsuppression_dictionary.a */,
+				1433DEA819D9C56E0071A2E4 /* libsystem_dictionary_codec.a */,
+				1433DEA919D9C56E0071A2E4 /* libsystem_dictionary.a */,
+				1433DEAA19D9C56E0071A2E4 /* libtext_dictionary_loader.a */,
+				1433DEAB19D9C56E0071A2E4 /* libusage_stats_protocol.a */,
+				1433DEAC19D9C56E0071A2E4 /* libusage_stats.a */,
+				1433DEAD19D9C56E0071A2E4 /* libuser_dictionary.a */,
+				1433DEAE19D9C56E0071A2E4 /* libuser_pos.a */,
+				1433DEAF19D9C56E0071A2E4 /* libvalue_dictionary.a */,
+			);
+			name = Mozc;
+			sourceTree = "<group>";
+		};
+		14E656D019D8239100A74B85 = {
+			isa = PBXGroup;
+			children = (
+				14E656DB19D8239100A74B85 /* JapaneseKeyboardKit */,
+				14E6570719D823FD00A74B85 /* JPKB */,
+				14E656DA19D8239100A74B85 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		14E656DA19D8239100A74B85 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				14E656D919D8239100A74B85 /* JapaneseKeyboardKit.app */,
+				14E6570619D823FD00A74B85 /* JPKB.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		14E656DB19D8239100A74B85 /* JapaneseKeyboardKit */ = {
+			isa = PBXGroup;
+			children = (
+				14E656E019D8239100A74B85 /* AppDelegate.h */,
+				14E656E119D8239100A74B85 /* AppDelegate.m */,
+				14E656E319D8239100A74B85 /* ViewController.h */,
+				14E656E419D8239100A74B85 /* ViewController.m */,
+				14E656EB19D8239100A74B85 /* LaunchScreen.xib */,
+				14E656E619D8239100A74B85 /* Main.storyboard */,
+				14E656E919D8239100A74B85 /* Images.xcassets */,
+				14E656DC19D8239100A74B85 /* Supporting Files */,
+			);
+			path = JapaneseKeyboardKit;
+			sourceTree = "<group>";
+		};
+		14E656DC19D8239100A74B85 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				14E656DD19D8239100A74B85 /* Info.plist */,
+				14E656DE19D8239100A74B85 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		14E6570719D823FD00A74B85 /* JPKB */ = {
+			isa = PBXGroup;
+			children = (
+				14E6570A19D823FD00A74B85 /* KeyboardViewController.h */,
+				14E6570B19D823FD00A74B85 /* KeyboardViewController.m */,
+				14E6571619D8244C00A74B85 /* KeyboardView.h */,
+				14E6571719D8244C00A74B85 /* KeyboardView.m */,
+				14E6572519D82A0E00A74B85 /* KeyboardButton.h */,
+				14E6572619D82A0E00A74B85 /* KeyboardButton.m */,
+				14E6571C19D8261A00A74B85 /* KeyboardCandidateBar.h */,
+				14E6571D19D8261A00A74B85 /* KeyboardCandidateBar.m */,
+				14A11AB619D84A6F00FA1350 /* KeyboardCandidateBarCell.h */,
+				14A11AB719D84A6F00FA1350 /* KeyboardCandidateBarCell.m */,
+				14A11AB819D84A6F00FA1350 /* KeyboardCandidateBarCell.xib */,
+				14E6571F19D8278E00A74B85 /* KeyboardLayout.h */,
+				14E6572019D8278E00A74B85 /* KeyboardLayout.m */,
+				14E6571919D825A700A74B85 /* KanaInputEngine.h */,
+				14E6571A19D825A700A74B85 /* KanaInputEngine.m */,
+				14E6572219D828E400A74B85 /* InputManager.h */,
+				14E6572319D828E400A74B85 /* InputManager.mm */,
+				14E6572C19D830C600A74B85 /* InputCandidate.h */,
+				14E6572D19D830C600A74B85 /* InputCandidate.m */,
+				14E6572A19D82DD600A74B85 /* Images.xcassets */,
+				14A11ABB19D865E300FA1350 /* Vendor */,
+				14E6570819D823FD00A74B85 /* Supporting Files */,
+			);
+			path = JPKB;
+			sourceTree = "<group>";
+		};
+		14E6570819D823FD00A74B85 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				14E6570919D823FD00A74B85 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		14E656D819D8239100A74B85 /* JapaneseKeyboardKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 14E656FC19D8239100A74B85 /* Build configuration list for PBXNativeTarget "JapaneseKeyboardKit" */;
+			buildPhases = (
+				14E656D519D8239100A74B85 /* Sources */,
+				14E656D619D8239100A74B85 /* Frameworks */,
+				14E656D719D8239100A74B85 /* Resources */,
+				14E6571519D823FD00A74B85 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				14E6570E19D823FD00A74B85 /* PBXTargetDependency */,
+				14E6571119D823FD00A74B85 /* PBXTargetDependency */,
+			);
+			name = JapaneseKeyboardKit;
+			productName = JapaneseKeyboardKit;
+			productReference = 14E656D919D8239100A74B85 /* JapaneseKeyboardKit.app */;
+			productType = "com.apple.product-type.application";
+		};
+		14E6570519D823FD00A74B85 /* JPKB */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 14E6571219D823FD00A74B85 /* Build configuration list for PBXNativeTarget "JPKB" */;
+			buildPhases = (
+				14E6570219D823FD00A74B85 /* Sources */,
+				14E6570319D823FD00A74B85 /* Frameworks */,
+				14E6570419D823FD00A74B85 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JPKB;
+			productName = JPKB;
+			productReference = 14E6570619D823FD00A74B85 /* JPKB.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		14E656D119D8239100A74B85 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "kishikawa katsumi";
+				TargetAttributes = {
+					14E656D819D8239100A74B85 = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+					14E6570519D823FD00A74B85 = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 14E656D419D8239100A74B85 /* Build configuration list for PBXProject "JapaneseKeyboardKit" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 14E656D019D8239100A74B85;
+			productRefGroup = 14E656DA19D8239100A74B85 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				14E656D819D8239100A74B85 /* JapaneseKeyboardKit */,
+				14E6570519D823FD00A74B85 /* JPKB */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		14E656D719D8239100A74B85 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14E6572919D82DBF00A74B85 /* Images.xcassets in Resources */,
+				14E656E819D8239100A74B85 /* Main.storyboard in Resources */,
+				14E656ED19D8239100A74B85 /* LaunchScreen.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14E6570419D823FD00A74B85 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14A11ABA19D84A6F00FA1350 /* KeyboardCandidateBarCell.xib in Resources */,
+				14E6572B19D82DD600A74B85 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		14E656D519D8239100A74B85 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14E656E519D8239100A74B85 /* ViewController.m in Sources */,
+				14E656E219D8239100A74B85 /* AppDelegate.m in Sources */,
+				14E656DF19D8239100A74B85 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14E6570219D823FD00A74B85 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14E6572419D828E400A74B85 /* InputManager.mm in Sources */,
+				14E6572719D82A0E00A74B85 /* KeyboardButton.m in Sources */,
+				14E6571E19D8261A00A74B85 /* KeyboardCandidateBar.m in Sources */,
+				14A11AB919D84A6F00FA1350 /* KeyboardCandidateBarCell.m in Sources */,
+				14E6572119D8278E00A74B85 /* KeyboardLayout.m in Sources */,
+				14E6571B19D825A700A74B85 /* KanaInputEngine.m in Sources */,
+				14E6570C19D823FD00A74B85 /* KeyboardViewController.m in Sources */,
+				14E6571819D8244C00A74B85 /* KeyboardView.m in Sources */,
+				14E6572E19D830C600A74B85 /* InputCandidate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		14E6570E19D823FD00A74B85 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 14E6570519D823FD00A74B85 /* JPKB */;
+			targetProxy = 14E6570D19D823FD00A74B85 /* PBXContainerItemProxy */;
+		};
+		14E6571119D823FD00A74B85 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 14E6570519D823FD00A74B85 /* JPKB */;
+			targetProxy = 14E6571019D823FD00A74B85 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		14E656E619D8239100A74B85 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				14E656E719D8239100A74B85 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		14E656EB19D8239100A74B85 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				14E656EC19D8239100A74B85 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		14E656FA19D8239100A74B85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		14E656FB19D8239100A74B85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		14E656FD19D8239100A74B85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JapaneseKeyboardKit/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		14E656FE19D8239100A74B85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JapaneseKeyboardKit/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		14E6571319D823FD00A74B85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(PROJECT_DIR)/Mozc-for-iOS/src",
+					"$(PROJECT_DIR)/Mozc-for-iOS/src/out_ios/DerivedSources/Release/proto_out",
+					"$(PROJECT_DIR)/Mozc-for-iOS/src/third_party/protobuf/src",
+				);
+				INFOPLIST_FILE = JPKB/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Mozc-for-iOS/src/out_ios/Release-iphoneos",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		14E6571419D823FD00A74B85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(PROJECT_DIR)/Mozc-for-iOS/src",
+					"$(PROJECT_DIR)/Mozc-for-iOS/src/out_ios/DerivedSources/Release/proto_out",
+					"$(PROJECT_DIR)/Mozc-for-iOS/src/third_party/protobuf/src",
+				);
+				INFOPLIST_FILE = JPKB/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Mozc-for-iOS/src/out_ios/Release-iphoneos",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		14E656D419D8239100A74B85 /* Build configuration list for PBXProject "JapaneseKeyboardKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14E656FA19D8239100A74B85 /* Debug */,
+				14E656FB19D8239100A74B85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		14E656FC19D8239100A74B85 /* Build configuration list for PBXNativeTarget "JapaneseKeyboardKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14E656FD19D8239100A74B85 /* Debug */,
+				14E656FE19D8239100A74B85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		14E6571219D823FD00A74B85 /* Build configuration list for PBXNativeTarget "JPKB" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14E6571319D823FD00A74B85 /* Debug */,
+				14E6571419D823FD00A74B85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 14E656D119D8239100A74B85 /* Project object */;
+}
