@@ -118,7 +118,7 @@
         [self.view removeConstraints:@[self.heightConstraint]];
     }
     
-    if (width == screenWidth) {
+    if (width == screenWidth || (width == 320.0 && screenWidth == 414.0)) {
         CGFloat height;
         if (width == 414.0) {
             height = 226.0;
