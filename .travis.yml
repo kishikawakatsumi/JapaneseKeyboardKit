@@ -1,0 +1,7 @@
+language: objective-c
+script:
+  - "cd Mozc-for-iOS/src/"
+  - "python build_mozc.py gyp"
+  - "python build_mozc_ios.py"
+  - "cd ../../"
+  - "xcodebuild -project 'JapaneseKeyboardKit.xcodeproj' -sdk iphoneos -configuration 'Release' -target 'JPKB'"
