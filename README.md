@@ -38,3 +38,7 @@ $ python build_mozc_ios.py
 $ cd ../..
 $ open JapaneseKeyboardKit.xcodeproj
 ```
+
+### Limitation
+
+Mozc works on a device only, does not work on the simulator.
