@@ -8,14 +8,6 @@
 
 #import "KanaInputEngine.h"
 
-#include <iostream>
-
-using namespace std;
-
-#include "composer/composer.h"
-#include "composer/table.h"
-#include "converter/conversion_request.h"
-
 @interface KanaInputEngine ()
 
 @property (nonatomic) NSMutableString *proccessedText;
@@ -23,11 +15,7 @@ using namespace std;
 
 @end
 
-@implementation KanaInputEngine {
-    scoped_ptr<mozc::composer::Composer> composer;
-    scoped_ptr<mozc::composer::Table> table;
-    scoped_ptr<mozc::commands::Request> default_request;
-}
+@implementation KanaInputEngine
 
 - (instancetype)init
 {
@@ -35,10 +23,6 @@ using namespace std;
     if (self) {
         self.proccessedText = [[NSMutableString alloc] init];
         self.displayText = [[NSMutableString alloc] init];
-        
-        table.reset(new mozc::composer::Table);
-        default_request.reset(new mozc::commands::Request);
-        composer.reset(new mozc::composer::Composer(table.get(), default_request.get()));
     }
     return self;
 }
@@ -50,15 +34,6 @@ using namespace std;
     } else {
         input = input.lowercaseString;
     }
-    
-    composer->SetInputMode(mozc::transliteration::HALF_ASCII);
-    composer->SetOutputMode(mozc::transliteration::HIRAGANA);
-    composer->InsertCharacter(input.UTF8String);
-    
-    string output;
-    composer->GetStringForPreedit(&output);
-    
-    NSLog(@"%s", output.c_str());
     
     if ([input compare:@"A" options:NSCaseInsensitiveSearch] == NSOrderedSame ||
         [input compare:@"I" options:NSCaseInsensitiveSearch] == NSOrderedSame ||
