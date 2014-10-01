@@ -30,11 +30,6 @@ using namespace std;
 #include "prediction/predictor_interface.h"
 #include "engine/engine_factory.h"
 #include "engine/engine_interface.h"
-#include "config/config_handler.h"
-
-using mozc::composer::Composer;
-using mozc::composer::Table;
-using mozc::config::Config;
 
 void MakeSegmentsForSuggestion(const string key, mozc::Segments *segments) {
     segments->Clear();
@@ -86,8 +81,8 @@ void MakeSegmentsForPrediction(const string key, mozc::Segments *segments) {
     mozc::commands::Request request;
     mozc::Segments segments;
     
-    Table table;
-    Composer composer(&table, &request);
+    mozc::composer::Table table;
+    mozc::composer::Composer composer(&table, &request);
     composer.InsertCharacterPreedit([input cStringUsingEncoding:NSUTF8StringEncoding]);
     mozc::ConversionRequest conversion_request(&composer, &request);
     

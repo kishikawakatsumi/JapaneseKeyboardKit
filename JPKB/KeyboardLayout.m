@@ -7,6 +7,7 @@
 //
 
 #import "KeyboardLayout.h"
+#import "KeyboardView.h"
 #import "KeyboardButton.h"
 
 @interface KeyboardLayout ()
