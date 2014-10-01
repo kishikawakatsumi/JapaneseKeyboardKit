@@ -16,9 +16,6 @@
 #if USE_MOZC
 
 #include <iostream>
-#include <map>
-#include <string>
-#include <vector>
 
 using namespace std;
 
@@ -83,7 +80,7 @@ void MakeSegmentsForPrediction(const string key, mozc::Segments *segments) {
     
     mozc::composer::Table table;
     mozc::composer::Composer composer(&table, &request);
-    composer.InsertCharacterPreedit([input cStringUsingEncoding:NSUTF8StringEncoding]);
+    composer.InsertCharacterPreedit(input.UTF8String);
     mozc::ConversionRequest conversion_request(&composer, &request);
     
     converter->StartPredictionForRequest(conversion_request, &segments);
