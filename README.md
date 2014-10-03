@@ -13,6 +13,7 @@ See also https://github.com/kishikawakatsumi/Mozc-for-iOS
     Mac OS X 10.9+
     Xcode 6.0+
     iOS SDK 8.0+
+    Python 2.7.5 (for build Mozc)
 
 
 ### Usage
