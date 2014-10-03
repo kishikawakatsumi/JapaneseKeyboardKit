@@ -16,6 +16,11 @@ See also https://github.com/kishikawakatsumi/Mozc-for-iOS
     Python 2.7.5 (for build Mozc)
 
 
+### Tested Environments
+    iPhone 6 Plus, iOS 8.0.2
+    iPhone 4S, iOS 8.0.2
+
+
 ### Usage
 
 #### Getting the code
