@@ -16,7 +16,8 @@
 @property (nonatomic) BOOL shifted;
 @property (nonatomic) NSString *text;
 
-- (void)addKeyInput:(NSString *)input;
+- (void)insertCharacter:(NSString *)input;
+- (void)backspace;
 
 @end
 
