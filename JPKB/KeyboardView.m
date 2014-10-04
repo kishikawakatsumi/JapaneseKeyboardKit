@@ -249,7 +249,11 @@ typedef NS_ENUM(NSInteger, KeyboardSize) {
 {
     _markedText = markedText;
     self.markedTextLabel.text = markedText;
-    self.inputEngine.text = markedText;
+    
+    if (markedText.length == 0) {
+        self.candidateBar.candidates = nil;
+    }
+    
     [self setNeedsLayout];
 }
 
@@ -261,7 +265,7 @@ typedef NS_ENUM(NSInteger, KeyboardSize) {
     if (keyIndex < KeyboardButtonIndexNextKeyboard) {
         NSString *input = [button titleForState:UIControlStateNormal];
         if (self.inputMode == KeyboardInputModeKana) {
-            [self.inputEngine addKeyInput:input];
+            [self.inputEngine insertCharacter:input];
         } else {
             [self.delegate keyboardView:self didAcceptCandidate:input];
         }
@@ -373,7 +377,7 @@ typedef NS_ENUM(NSInteger, KeyboardSize) {
 - (void)handleComma
 {
     if (self.inputMode == KeyboardInputModeKana) {
-        [self.inputEngine addKeyInput:@"、"];
+        [self.inputEngine insertCharacter:@"、"];
     } else {
         [self.delegate keyboardView:self didAcceptCandidate:@","];
     }
@@ -382,7 +386,7 @@ typedef NS_ENUM(NSInteger, KeyboardSize) {
 - (void)handlePeriod
 {
     if (self.inputMode == KeyboardInputModeKana) {
-        [self.inputEngine addKeyInput:@"。"];
+        [self.inputEngine insertCharacter:@"。"];
     } else {
         [self.delegate keyboardView:self didAcceptCandidate:@"."];
     }
@@ -395,11 +399,11 @@ typedef NS_ENUM(NSInteger, KeyboardSize) {
     if (length == 0) {
         [self.delegate keyboardViewDidInputDelete:self];
     } else {
+        [self.inputEngine backspace];
+        
         self.markedText = [markedText substringToIndex:length - 1];
         if (self.markedText.length > 0) {
             [self.inputManager requestCandidatesForInput:self.markedText];
-        } else {
-            self.candidateBar.candidates = nil;
         }
     }
 }
@@ -463,7 +467,7 @@ typedef NS_ENUM(NSInteger, KeyboardSize) {
         [self.delegate keyboardView:self didAcceptCandidate:self.markedText];
         
         self.markedText = @"";
-        self.candidateBar.candidates = nil;
+        self.inputEngine.text = self.markedText;
     }
 }
 
@@ -500,6 +504,8 @@ typedef NS_ENUM(NSInteger, KeyboardSize) {
     if (self.markedText.length > 0) {
         [self.inputManager requestCandidatesForInput:self.markedText];
     }
+    
+    self.inputEngine.text = self.markedText;
     
     [self.delegate keyboardView:self didAcceptCandidate:segment.candidate];
 }
