@@ -5,3 +5,6 @@ script:
   - "python build_mozc_ios.py | xcpretty -c; exit ${PIPESTATUS[0]}"
   - "cd ../../"
   - "xcodebuild -project 'JapaneseKeyboardKit.xcodeproj' -sdk iphoneos -configuration 'Release' -target 'JPKB' CODE_SIGN_IDENTITY='' CODE_SIGNING_REQUIRED=NO | xcpretty -c; exit ${PIPESTATUS[0]}"
+branches:
+  only:
+    - master
